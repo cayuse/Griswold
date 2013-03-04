@@ -1,4 +1,4 @@
-package com.github.toxuin;
+package net.deepbondi.cayuse;
 
 import net.milkbowl.vault.economy.Economy;
 import net.milkbowl.vault.permission.Permission;
@@ -28,7 +28,7 @@ import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.RegisteredServiceProvider;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import com.github.toxuin.Metrics.Graph;
+import net.deepbondi.cayuse.Metrics.Graph;
 
 import java.io.File;
 import java.io.IOException;

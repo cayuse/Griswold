@@ -1,4 +1,4 @@
-package com.github.toxuin;
+package net.deepbondi.cayuse;
 
 import org.bukkit.ChatColor;
 import org.bukkit.configuration.file.YamlConfiguration;

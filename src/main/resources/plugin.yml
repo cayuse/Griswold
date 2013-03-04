@@ -1,0 +1,7 @@
+name: BondiRepair
+main: net.deepbondi.minecraft.repair.RepairPlugin
+version: 0.1
+website: /dev/null
+author: cayuse@deepbondi.net
+database: false
+description: Repair system customization

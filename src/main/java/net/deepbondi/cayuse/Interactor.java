@@ -1,4 +1,4 @@
-package com.github.toxuin;
+package net.deepbondi.cayuse;
 
 import net.milkbowl.vault.economy.EconomyResponse;
 import net.minecraft.server.EnchantmentInstance;
