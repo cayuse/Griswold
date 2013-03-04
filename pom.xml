@@ -1,5 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <api.version>unknown</api.version>
+        <junit.version>4.11</junit.version>
+        <minecraft.version>1.4.7</minecraft.version>
+        <minecraft_version>1_4_R1</minecraft_version>
+    </properties>
+
     <modelVersion>4.0.0</modelVersion>
     <groupId>net.deepbondi</groupId>
     <artifactId>cayuse</artifactId>
@@ -14,6 +23,18 @@
             <version>1.4.7-R1.0</version>
             <type>jar</type>
             <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.bukkit</groupId>
+            <artifactId>minecraft-server</artifactId>
+            <version>${minecraft.version}</version>
+            <type>jar</type>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>net.milkbowl.vault</groupId>
+            <artifactId>Vault</artifactId>
+            <version>1.16</version>
         </dependency>
     </dependencies>
 

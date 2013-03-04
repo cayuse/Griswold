@@ -96,7 +96,7 @@ public class Interactor {
 							            }
 						            }
 
-									net.minecraft.server.ItemStack vanillaItem = CraftItemStack.createNMSItemStack(item);
+									net.minecraft.server.ItemStack vanillaItem = CraftItemStack.asNMSCopy(item);
 									int bonus = (new Random()).nextInt(maxEnchantBonus);
 									List<?> list = EnchantmentManager.b(new Random(), vanillaItem, bonus);
 									if (list != null) {
