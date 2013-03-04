@@ -429,7 +429,7 @@ public class Griswold extends JavaPlugin implements Listener{
 	}
 
 	private class Starter implements Runnable {
-		@Override
+		//@Override
 		public void run() {
 			reloadPlugin();
 

@@ -36,6 +36,16 @@
             <artifactId>Vault</artifactId>
             <version>1.16</version>
         </dependency>
+        <dependency>
+            <groupId>org.bukkit</groupId>
+            <artifactId>Craftbukkit</artifactId>
+            <version>1.4.7</version>
+        </dependency>
+        <dependency>
+            <groupId>org.bukkit</groupId>
+            <artifactId>CraftbukkitOrig</artifactId>
+            <version>1.4.7</version>
+        </dependency>
     </dependencies>
 
     <repositories>
